@@ -9,8 +9,8 @@ This is a very basic example of a simple Remix app using the Remix App Server.
 From your terminal:
 
 ```sh
-npm install
-npm run dev
+yarn
+yarn dev
 ```
 
 This starts your app in development mode, rebuilding assets on file changes.
@@ -20,17 +20,19 @@ This starts your app in development mode, rebuilding assets on file changes.
 First, build your app for production:
 
 ```sh
-npm run build
+yarn build
 ```
 
 Then run the app in production mode:
 
 ```sh
-npm start
+yarn start
 ```
 
-## Preview
+## Tests
 
-Open this example on [CodeSandbox](https://codesandbox.com):
+To run the tests run:
 
-[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/remix-run/remix/tree/main/examples/basic)
+```sh
+yarn test
+```
